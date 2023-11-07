@@ -1,0 +1,76 @@
+/* Reset CSS */
+
+/* Box model */
+html, body, div, h1, h2, h3, p, ul, ol, li, dl, dt, dd, blockquote, figure, hr, fieldset, legend, form, table, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Typography */
+  body, button, input, select, textarea {
+    font: 16px/1.4 sans-serif;
+  }
+  
+  h1, h2, h3, p, ul, ol, li, dl, dt, dd, blockquote, figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Lists */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Forms */
+  button, input, select, textarea {
+    font: inherit;
+  }
+  
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Iframe */
+  iframe {
+    border: 0;
+  }
+  
+  /* HTML5 elements */
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+  }
+  
+  /* Focus styles */
+  :focus {
+    outline: 0;
+  }
+  
+  /* Media elements */
+  audio, canvas, progress, video {
+    display: inline-block;
+  }
+  
+  /* HTML5 progress element */
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /* Hidden */
+  [hidden] {
+    display: none;
+  }
